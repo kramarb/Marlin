@@ -50,8 +50,8 @@
 //
 // Limit Switches
 //
-#define X_MIN_PIN          22
-#define X_MAX_PIN          24
+#define X_MIN_PIN          24
+#define X_MAX_PIN          -1
 #define Y_MIN_PIN          26
 #define Y_MAX_PIN          28
 #define Z_MIN_PIN          30
@@ -97,8 +97,8 @@
 //
 // Heaters / Fans
 //
-#define HEATER_0_PIN        2
-#define HEATER_1_PIN        3
+#define HEATER_0_PIN        3
+#define HEATER_1_PIN        2
 #define HEATER_BED_PIN      4
 
 #define FAN_PIN             7
